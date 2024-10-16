@@ -139,6 +139,12 @@
         <mxCell id="tEenduS5illh0GwvhTWt-42" value="Sistema de compras" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="140" y="1310" width="100" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="tEenduS5illh0GwvhTWt-43" value="Acceder&lt;div&gt;/conectarse&lt;/div&gt;" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="1220" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tEenduS5illh0GwvhTWt-44" value="Acceder&lt;div&gt;/conectarse&lt;/div&gt;" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="1310" width="70" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
