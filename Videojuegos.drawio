@@ -145,6 +145,30 @@
         <mxCell id="tEenduS5illh0GwvhTWt-44" value="Acceder&lt;div&gt;/conectarse&lt;/div&gt;" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="380" y="1310" width="70" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="tEenduS5illh0GwvhTWt-46" value="" style="endArrow=none;html=1;rounded=0;entryX=-0.031;entryY=0.521;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="tEenduS5illh0GwvhTWt-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="1150" as="sourcePoint" />
+            <mxPoint x="450" y="1070" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tEenduS5illh0GwvhTWt-47" value="" style="endArrow=none;html=1;rounded=0;entryX=-0.037;entryY=0.518;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="tEenduS5illh0GwvhTWt-32" target="tEenduS5illh0GwvhTWt-40">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="1151" as="sourcePoint" />
+            <mxPoint x="147" y="1052" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tEenduS5illh0GwvhTWt-48" value="" style="endArrow=none;html=1;rounded=0;entryX=-0.049;entryY=0.532;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="tEenduS5illh0GwvhTWt-32" target="tEenduS5illh0GwvhTWt-41">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="1158" as="sourcePoint" />
+            <mxPoint x="157" y="1062" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tEenduS5illh0GwvhTWt-49" value="" style="endArrow=none;html=1;rounded=0;entryX=-0.003;entryY=0.511;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="tEenduS5illh0GwvhTWt-32" target="tEenduS5illh0GwvhTWt-42">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="1168" as="sourcePoint" />
+            <mxPoint x="167" y="1072" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
