@@ -1,11 +1,33 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 OPR/114.0.0.0" version="24.8.6">
   <diagram name="Page-1" id="89SvNmjDUWcuLCrcjwWC">
-    <mxGraphModel dx="1229" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="878" dy="552" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="FfrYomSvs4A9J6Yxcved-1" value="Block" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="YuM3O4q3JmLdvVF8k4OD-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="FfrYomSvs4A9J6Yxcved-1" target="YuM3O4q3JmLdvVF8k4OD-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YuM3O4q3JmLdvVF8k4OD-6" value="Protocolo&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YuM3O4q3JmLdvVF8k4OD-5">
+          <mxGeometry x="-0.0947" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FfrYomSvs4A9J6Yxcved-1" value="&amp;lt;&amp;lt;Device&amp;gt;&amp;gt;&lt;div&gt;para los dispositivos fisicos&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;XXX&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="80" y="40" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="YuM3O4q3JmLdvVF8k4OD-1" value="&amp;lt;&amp;lt;Execution envarioment&amp;gt;&amp;gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;XXX&lt;/div&gt;" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="360" y="40" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="YuM3O4q3JmLdvVF8k4OD-2" value="La cajita(o nodos) puede tener otras cajitas que necesiten otro entorno, o entornos, componentes(así son llamados mayormente).&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry y="8" width="720" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YuM3O4q3JmLdvVF8k4OD-3" value="&amp;laquo;Annotation&amp;raquo;&lt;br/&gt;&lt;b&gt;Component&lt;/b&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="385" y="110" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YuM3O4q3JmLdvVF8k4OD-4" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="YuM3O4q3JmLdvVF8k4OD-3">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
