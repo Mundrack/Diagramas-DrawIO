@@ -12,10 +12,10 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FfrYomSvs4A9J6Yxcved-1" value="&amp;lt;&amp;lt;Device&amp;gt;&amp;gt;&lt;div&gt;para los dispositivos fisicos&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;XXX&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+        <mxCell id="FfrYomSvs4A9J6Yxcved-1" value="&amp;lt;&amp;lt;Device&amp;gt;&amp;gt;&lt;div&gt;para los dispositivos fisicos&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;XXX&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="80" y="40" width="180" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="YuM3O4q3JmLdvVF8k4OD-1" value="&amp;lt;&amp;lt;Execution envarioment&amp;gt;&amp;gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;XXX&lt;/div&gt;" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="YuM3O4q3JmLdvVF8k4OD-1" value="&amp;lt;&amp;lt;Execution envarioment&amp;gt;&amp;gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;XXX&lt;/div&gt;" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="360" y="40" width="180" height="120" as="geometry" />
         </mxCell>
         <mxCell id="YuM3O4q3JmLdvVF8k4OD-2" value="La cajita(o nodos) puede tener otras cajitas que necesiten otro entorno, o entornos, componentes(así son llamados mayormente).&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
@@ -28,6 +28,18 @@
           <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
             <mxPoint x="-27" y="7" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="YuM3O4q3JmLdvVF8k4OD-7" value="Datos e información." style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="260" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YuM3O4q3JmLdvVF8k4OD-8" value="capa media---Apache Kafka" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="230" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YuM3O4q3JmLdvVF8k4OD-9" value="Aplicaciones contener izadas - Streaming audio y video/chat en vivo" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="270" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YuM3O4q3JmLdvVF8k4OD-10" value="Aplicaciones de baja demanda&lt;div&gt;herramientas&amp;nbsp; gestiones&amp;nbsp; de contenido&amp;nbsp;&lt;/div&gt;&lt;div&gt;Administración&amp;nbsp; del canal&amp;nbsp;&lt;/div&gt;&lt;div&gt;Servicios externos (google ads)&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="190" width="290" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
