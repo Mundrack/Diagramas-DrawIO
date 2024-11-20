@@ -41,6 +41,48 @@
         <mxCell id="YuM3O4q3JmLdvVF8k4OD-10" value="Aplicaciones de baja demanda&lt;div&gt;herramientas&amp;nbsp; gestiones&amp;nbsp; de contenido&amp;nbsp;&lt;/div&gt;&lt;div&gt;Administración&amp;nbsp; del canal&amp;nbsp;&lt;/div&gt;&lt;div&gt;Servicios externos (google ads)&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="640" y="190" width="290" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="YuM3O4q3JmLdvVF8k4OD-11" value="Crearemos el diagrama de abajo a arriba." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="275" y="368" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YuM3O4q3JmLdvVF8k4OD-19" value="&amp;lt;&amp;lt;Execution environment&amp;gt;&amp;gt;&lt;div&gt;&lt;div&gt;Servidor BDD 1&lt;/div&gt;&lt;/div&gt;" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="40" y="520" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="YuM3O4q3JmLdvVF8k4OD-21" value="«BDD Distribuida»&lt;br&gt;&lt;b&gt;Casandra Instancia 1&lt;/b&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="55" y="570" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YuM3O4q3JmLdvVF8k4OD-22" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="YuM3O4q3JmLdvVF8k4OD-21">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YuM3O4q3JmLdvVF8k4OD-23" value="&amp;lt;&amp;lt;Execution environment&amp;gt;&amp;gt;&lt;div&gt;&lt;div&gt;Servidor BDD 1&lt;/div&gt;&lt;/div&gt;" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="360" y="520" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="YuM3O4q3JmLdvVF8k4OD-24" value="«BDD Distribuida»&lt;br&gt;&lt;b&gt;Casandra Instancia 2&lt;/b&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="370" y="570" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YuM3O4q3JmLdvVF8k4OD-25" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="YuM3O4q3JmLdvVF8k4OD-24">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YuM3O4q3JmLdvVF8k4OD-26" value="&amp;lt;&amp;lt;Execution environment&amp;gt;&amp;gt;&lt;div&gt;&lt;div&gt;Servidor BDD 1&lt;/div&gt;&lt;/div&gt;" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="680" y="520" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="YuM3O4q3JmLdvVF8k4OD-27" value="«BDD Distribuida»&lt;br&gt;&lt;b&gt;Casandra Instancia 3&lt;/b&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="695" y="570" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YuM3O4q3JmLdvVF8k4OD-28" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="YuM3O4q3JmLdvVF8k4OD-27">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YuM3O4q3JmLdvVF8k4OD-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.505;entryY=0.991;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="YuM3O4q3JmLdvVF8k4OD-19" target="YuM3O4q3JmLdvVF8k4OD-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YuM3O4q3JmLdvVF8k4OD-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.498;entryY=0.997;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="YuM3O4q3JmLdvVF8k4OD-23" target="YuM3O4q3JmLdvVF8k4OD-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
