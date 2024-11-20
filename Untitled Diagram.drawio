@@ -83,6 +83,9 @@
         <mxCell id="YuM3O4q3JmLdvVF8k4OD-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.498;entryY=0.997;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="YuM3O4q3JmLdvVF8k4OD-23" target="YuM3O4q3JmLdvVF8k4OD-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="YuM3O4q3JmLdvVF8k4OD-33" value="Colocamos tres porque el ejercicio dice un closter que este inicia con dos o más." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="360" y="420" width="450" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
