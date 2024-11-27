@@ -26,10 +26,10 @@
             <mxPoint x="-27" y="7" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dvXd4WphclNY3FS19eXK-44" value="&amp;lt;&amp;lt;Execution environment&amp;gt;&amp;gt;&lt;div&gt;&lt;div&gt;Servidor BDD 3&lt;/div&gt;&lt;/div&gt;" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="dvXd4WphclNY3FS19eXK-44" value="&amp;lt;&amp;lt;Execution environment&amp;gt;&amp;gt;&lt;div&gt;&lt;div&gt;Servidor Aeropuerto&lt;/div&gt;&lt;/div&gt;" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="350" y="1580" width="180" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="dvXd4WphclNY3FS19eXK-45" value="«BDD Distribuida»&lt;br&gt;&lt;b&gt;Casandra Instancia 3&lt;/b&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="dvXd4WphclNY3FS19eXK-45" value="«DB aeropuerto»&lt;br&gt;&lt;b&gt;Sistemadel aeropurto&lt;/b&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="365" y="1630" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dvXd4WphclNY3FS19eXK-46" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="dvXd4WphclNY3FS19eXK-45">
@@ -149,6 +149,41 @@
         </mxCell>
         <mxCell id="dvXd4WphclNY3FS19eXK-81" value="sistemas de reserva externos como Kayak, Google Flights o Expedia, y, repositorio de información para analíticade preferencias de viajes." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1515" y="1292" width="760" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dvXd4WphclNY3FS19eXK-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.094;entryY=1.005;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="dvXd4WphclNY3FS19eXK-44" target="dvXd4WphclNY3FS19eXK-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dvXd4WphclNY3FS19eXK-90" value="TCP" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dvXd4WphclNY3FS19eXK-82">
+          <mxGeometry x="0.1592" y="5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dvXd4WphclNY3FS19eXK-83" value="&amp;lt;&amp;lt;Execution environment&amp;gt;&amp;gt;&lt;div&gt;Servidor Aeropuerto&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="470" y="1120" width="195" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="dvXd4WphclNY3FS19eXK-84" value="«Aplicacion»&lt;br&gt;&lt;b&gt;Sistema de reserva&lt;/b&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="487.5" y="1200" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dvXd4WphclNY3FS19eXK-85" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="dvXd4WphclNY3FS19eXK-84">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dvXd4WphclNY3FS19eXK-86" value="«Aplicacion»&lt;br&gt;&lt;b&gt;Administracion del canal&lt;/b&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="487.5" y="1280" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dvXd4WphclNY3FS19eXK-87" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="dvXd4WphclNY3FS19eXK-86">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dvXd4WphclNY3FS19eXK-88" value="«Aplicacion»&lt;br&gt;&lt;b&gt;Google ads&lt;/b&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="487.5" y="1360" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dvXd4WphclNY3FS19eXK-89" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="dvXd4WphclNY3FS19eXK-88">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
