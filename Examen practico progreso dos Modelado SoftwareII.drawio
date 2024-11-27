@@ -1,25 +1,25 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 OPR/114.0.0.0" version="24.9.1">
   <diagram name="Page-1" id="y1c4eyKBUa124X-FBVNv">
-    <mxGraphModel dx="1294" dy="-286" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1229" dy="-327" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="dvXd4WphclNY3FS19eXK-38" value="&amp;lt;&amp;lt;Execution environment&amp;gt;&amp;gt;&lt;div&gt;&lt;div&gt;Servidor BDD 1&lt;/div&gt;&lt;/div&gt;" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="293" y="2050" width="180" height="120" as="geometry" />
+        <mxCell id="dvXd4WphclNY3FS19eXK-38" value="&amp;lt;&amp;lt;Execution environment&amp;gt;&amp;gt;&lt;div&gt;&lt;div&gt;Servidor Virtual 1&lt;/div&gt;&lt;/div&gt;" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="603" y="1590" width="180" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="dvXd4WphclNY3FS19eXK-39" value="«BDD Distribuida»&lt;br&gt;&lt;b&gt;Casandra Instancia 1&lt;/b&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="308" y="2100" width="150" height="60" as="geometry" />
+        <mxCell id="dvXd4WphclNY3FS19eXK-39" value="«Servidor Virtual»&lt;br&gt;&lt;b&gt;Servicios y repositorios&lt;/b&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="618" y="1640" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dvXd4WphclNY3FS19eXK-40" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="dvXd4WphclNY3FS19eXK-39">
           <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
             <mxPoint x="-27" y="7" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dvXd4WphclNY3FS19eXK-41" value="&amp;lt;&amp;lt;Execution environment&amp;gt;&amp;gt;&lt;div&gt;&lt;div&gt;Servidor BDD 2&lt;/div&gt;&lt;/div&gt;" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="613" y="2050" width="180" height="120" as="geometry" />
+        <mxCell id="dvXd4WphclNY3FS19eXK-41" value="&amp;lt;&amp;lt;Execution environment&amp;gt;&amp;gt;&lt;div&gt;&lt;div&gt;Servidor Virtual 2&lt;/div&gt;&lt;/div&gt;" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="923" y="1590" width="180" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="dvXd4WphclNY3FS19eXK-42" value="«BDD Distribuida»&lt;br&gt;&lt;b&gt;Casandra Instancia 2&lt;/b&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="623" y="2100" width="150" height="60" as="geometry" />
+        <mxCell id="dvXd4WphclNY3FS19eXK-42" value="«BDD Distribuida»&lt;br&gt;&lt;b&gt;Serivicios y repositorios&lt;/b&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="933" y="1640" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dvXd4WphclNY3FS19eXK-43" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="dvXd4WphclNY3FS19eXK-42">
           <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
@@ -27,10 +27,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="dvXd4WphclNY3FS19eXK-44" value="&amp;lt;&amp;lt;Execution environment&amp;gt;&amp;gt;&lt;div&gt;&lt;div&gt;Servidor BDD 3&lt;/div&gt;&lt;/div&gt;" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="40" y="2040" width="180" height="120" as="geometry" />
+          <mxGeometry x="350" y="1580" width="180" height="120" as="geometry" />
         </mxCell>
         <mxCell id="dvXd4WphclNY3FS19eXK-45" value="«BDD Distribuida»&lt;br&gt;&lt;b&gt;Casandra Instancia 3&lt;/b&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="55" y="2090" width="150" height="60" as="geometry" />
+          <mxGeometry x="365" y="1630" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dvXd4WphclNY3FS19eXK-46" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="dvXd4WphclNY3FS19eXK-45">
           <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
@@ -41,7 +41,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="dvXd4WphclNY3FS19eXK-48" value="Cluster&lt;div&gt;Data Lake&lt;/div&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=80;height=30;" vertex="1" parent="1">
-          <mxGeometry x="283" y="2010" width="567.5" height="200" as="geometry" />
+          <mxGeometry x="593" y="1550" width="567.5" height="200" as="geometry" />
         </mxCell>
         <mxCell id="dvXd4WphclNY3FS19eXK-52" value="&amp;lt;&amp;lt;Execution environment&amp;gt;&amp;gt;&lt;div&gt;Servidor Fusiones Complementarias&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=0;html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="770" y="1120" width="195" height="330" as="geometry" />
@@ -139,16 +139,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="dvXd4WphclNY3FS19eXK-77" value="&lt;div style=&quot;color: transparent; position: absolute; white-space-collapse: preserve; cursor: text; transform-origin: 0% 0%; letter-spacing: 0.2px; text-align: start; background-color: rgb(255, 255, 255); left: 230.183px; top: 664.454px; font-size: 15.2993px; font-family: sans-serif; transform: scaleX(0.889903);&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="760" y="1498" width="20" height="10" as="geometry" />
+          <mxGeometry x="1775" y="1210" width="20" height="10" as="geometry" />
         </mxCell>
         <mxCell id="dvXd4WphclNY3FS19eXK-79" value="lugares&amp;nbsp; de&amp;nbsp; origen&amp;nbsp; y&amp;nbsp; destino,fechas,&amp;nbsp; opciones&amp;nbsp; de&amp;nbsp; ida&amp;nbsp; y&amp;nbsp; vuelta,y&amp;nbsp; número&amp;nbsp; de pasajeros" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="340" y="1488" width="500" height="30" as="geometry" />
+          <mxGeometry x="1565" y="1200" width="500" height="30" as="geometry" />
         </mxCell>
         <mxCell id="dvXd4WphclNY3FS19eXK-80" value="Saldráel listado de vuelos con sus detalles,horarios,restricciones y tarifas diferenciadas, con lo que el usuariopodrá seleccionarla opción más adecuada y configurar sus preferencias." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="425" y="1540" width="990" height="30" as="geometry" />
+          <mxGeometry x="1440" y="1252" width="990" height="30" as="geometry" />
         </mxCell>
         <mxCell id="dvXd4WphclNY3FS19eXK-81" value="sistemas de reserva externos como Kayak, Google Flights o Expedia, y, repositorio de información para analíticade preferencias de viajes." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="500" y="1580" width="760" height="30" as="geometry" />
+          <mxGeometry x="1515" y="1292" width="760" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
