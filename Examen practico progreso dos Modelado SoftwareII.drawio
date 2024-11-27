@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 OPR/114.0.0.0" version="24.9.1">
   <diagram name="Page-1" id="y1c4eyKBUa124X-FBVNv">
-    <mxGraphModel dx="878" dy="-548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1366" dy="-241" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -148,6 +148,15 @@
           <mxGeometry x="-0.2851" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="dvXd4WphclNY3FS19eXK-77" value="&lt;div style=&quot;color: transparent; position: absolute; white-space-collapse: preserve; cursor: text; transform-origin: 0% 0%; letter-spacing: 0.2px; text-align: start; background-color: rgb(255, 255, 255); left: 230.183px; top: 664.454px; font-size: 15.2993px; font-family: sans-serif; transform: scaleX(0.889903);&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="760" y="1498" width="20" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="dvXd4WphclNY3FS19eXK-79" value="lugares&amp;nbsp; de&amp;nbsp; origen&amp;nbsp; y&amp;nbsp; destino,fechas,&amp;nbsp; opciones&amp;nbsp; de&amp;nbsp; ida&amp;nbsp; y&amp;nbsp; vuelta,y&amp;nbsp; número&amp;nbsp; de pasajeros" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1488" width="500" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dvXd4WphclNY3FS19eXK-80" value="Saldráel listado de vuelos con sus detalles,horarios,restricciones y tarifas diferenciadas, con lo que el usuariopodrá seleccionarla opción más adecuada y configurar sus preferencias." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="425" y="1540" width="990" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
