@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 OPR/114.0.0.0" version="24.9.1">
   <diagram name="Page-1" id="y1c4eyKBUa124X-FBVNv">
-    <mxGraphModel dx="1366" dy="-241" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1639" dy="-69" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -157,6 +157,9 @@
         </mxCell>
         <mxCell id="dvXd4WphclNY3FS19eXK-80" value="Saldráel listado de vuelos con sus detalles,horarios,restricciones y tarifas diferenciadas, con lo que el usuariopodrá seleccionarla opción más adecuada y configurar sus preferencias." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="425" y="1540" width="990" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dvXd4WphclNY3FS19eXK-81" value="sistemas de reserva externos como Kayak, Google Flights o Expedia, y, repositorio de información para analíticade preferencias de viajes." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="500" y="1580" width="760" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
