@@ -28,8 +28,8 @@
         <mxCell id="mHhzqrUSUbGw9TSnwTTk-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.391;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="mHhzqrUSUbGw9TSnwTTk-1" target="Bn-3ERYPzrL__islP2Uy-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mHhzqrUSUbGw9TSnwTTk-1" value="&lt;div&gt;Customer&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;- Browse products&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;- Add items to cart&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;- Make payments&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;- View order history&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="165" y="160" width="180" height="90" as="geometry" />
+        <mxCell id="mHhzqrUSUbGw9TSnwTTk-1" value="&lt;div&gt;&lt;b&gt;Customer&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;- Browse products&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;- Add items to cart&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;- Make payments&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;- View order history&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="165" y="150" width="180" height="100" as="geometry" />
         </mxCell>
         <mxCell id="mHhzqrUSUbGw9TSnwTTk-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="mHhzqrUSUbGw9TSnwTTk-2" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -41,8 +41,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="mHhzqrUSUbGw9TSnwTTk-2" value="&lt;div&gt;Store Administrator&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;- Manage inventory&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;- Add/update/delete products&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;- Monitor stock levels&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="650" y="160" width="180" height="90" as="geometry" />
+        <mxCell id="mHhzqrUSUbGw9TSnwTTk-2" value="&lt;div&gt;&lt;b&gt;Store Administrator&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;- Manage inventory&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;- Add/update/delete products&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;- Monitor stock levels&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="650" y="150" width="180" height="100" as="geometry" />
         </mxCell>
         <mxCell id="mHhzqrUSUbGw9TSnwTTk-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="mHhzqrUSUbGw9TSnwTTk-3" target="mHhzqrUSUbGw9TSnwTTk-8" edge="1">
           <mxGeometry relative="1" as="geometry">
