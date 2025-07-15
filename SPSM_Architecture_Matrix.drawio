@@ -25,7 +25,7 @@
         <mxCell id="Bn-3ERYPzrL__islP2Uy-7" value="7. Infrastructure" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="80" y="960" width="901" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mHhzqrUSUbGw9TSnwTTk-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mHhzqrUSUbGw9TSnwTTk-1" target="Bn-3ERYPzrL__islP2Uy-2">
+        <mxCell id="mHhzqrUSUbGw9TSnwTTk-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.391;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="mHhzqrUSUbGw9TSnwTTk-1" target="Bn-3ERYPzrL__islP2Uy-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mHhzqrUSUbGw9TSnwTTk-1" value="&lt;div&gt;Customer&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;- Browse products&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;- Add items to cart&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;- Make payments&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;- View order history&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -33,10 +33,11 @@
         </mxCell>
         <mxCell id="mHhzqrUSUbGw9TSnwTTk-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="mHhzqrUSUbGw9TSnwTTk-2">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="530" y="320" as="targetPoint" />
+            <mxPoint x="600" y="310" as="targetPoint" />
             <Array as="points">
               <mxPoint x="740" y="280" />
-              <mxPoint x="530" y="280" />
+              <mxPoint x="600" y="280" />
+              <mxPoint x="600" y="310" />
             </Array>
           </mxGeometry>
         </mxCell>
