@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0 (Edition std-2)" version="28.0.4">
   <diagram name="Página-1" id="i13byZTgKiIOev3eByZY">
-    <mxGraphModel dx="1622" dy="888" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1149" dy="629" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -220,6 +220,9 @@
             <mxGeometry x="1140" y="1370" width="310" height="90" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="7bI8PuVV5uYtHsXR406--7" value="&amp;nbsp;Kubernetes Cluster (AKS / EKS)&lt;div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Hosts microservices and RabbitMQ&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Provides scalability and orchestration&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;h4 data-end=&quot;585&quot; data-start=&quot;561&quot;&gt;&lt;/h4&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="1630" width="240" height="90" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
