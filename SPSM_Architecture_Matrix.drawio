@@ -4,26 +4,38 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Bn-3ERYPzrL__islP2Uy-1" value="1. Users / Use Cases" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+        <mxCell id="Bn-3ERYPzrL__islP2Uy-1" value="1. Users / Use Cases" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="80" y="80" width="901" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Bn-3ERYPzrL__islP2Uy-2" value="&lt;div&gt;2. Applications / Interfaces&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="80" y="180" width="901" height="30" as="geometry" />
+        <mxCell id="Bn-3ERYPzrL__islP2Uy-2" value="&lt;div&gt;2. Applications / Interfaces&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="80" y="310" width="901" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Bn-3ERYPzrL__islP2Uy-3" value="&lt;div&gt;3. Integration&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="80" y="290" width="901" height="30" as="geometry" />
+        <mxCell id="Bn-3ERYPzrL__islP2Uy-3" value="&lt;div&gt;3. Integration&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="80" y="520" width="901" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Bn-3ERYPzrL__islP2Uy-4" value="5. Data / Storage" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="80" y="510" width="901" height="30" as="geometry" />
+        <mxCell id="Bn-3ERYPzrL__islP2Uy-4" value="5. Data / Storage" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="80" y="740" width="901" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Bn-3ERYPzrL__islP2Uy-5" value="4. Services / Components" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="80" y="400" width="901" height="30" as="geometry" />
+        <mxCell id="Bn-3ERYPzrL__islP2Uy-5" value="4. Services / Components" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="80" y="630" width="901" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Bn-3ERYPzrL__islP2Uy-6" value="6. Security" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="80" y="620" width="901" height="30" as="geometry" />
+        <mxCell id="Bn-3ERYPzrL__islP2Uy-6" value="6. Security" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="80" y="850" width="901" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Bn-3ERYPzrL__islP2Uy-7" value="7. Infrastructure" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="80" y="730" width="901" height="30" as="geometry" />
+        <mxCell id="Bn-3ERYPzrL__islP2Uy-7" value="7. Infrastructure" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="80" y="960" width="901" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mHhzqrUSUbGw9TSnwTTk-1" value="&lt;div&gt;Customer&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;- Browse products&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;- Add items to cart&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;- Make payments&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;- View order history&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="165" y="160" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="mHhzqrUSUbGw9TSnwTTk-2" value="&lt;div&gt;Store Administrator&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;- Manage inventory&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;- Add/update/delete products&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;- Monitor stock levels&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="160" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="mHhzqrUSUbGw9TSnwTTk-3" value="&lt;div&gt;UI Web Application&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;Technology: ASP.NET&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;- Main interface for customers and administrators&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;- Sends HTTPS requests to API Gateway&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="405" width="290" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="mHhzqrUSUbGw9TSnwTTk-4" value="&lt;div&gt;Admin Management Interface (Optional)&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;- Web portal for inventory and product management&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;- Restricted access for admins only&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="615" y="400" width="250" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
