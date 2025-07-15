@@ -85,8 +85,17 @@
         <mxCell id="R8CUXk5LIufCTb3Vg6Q0-18" value="&lt;div&gt;Shopping Cart Management Service&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;Technology: ASP.NET&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;- Handles cart operations&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;- Add/update/remove items from cart&lt;/div&gt;" style="html=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="1320" y="750" width="260" height="100" as="geometry" />
         </mxCell>
+        <mxCell id="xyALSVIDRosyTvIhsN_C-12" value="NoSQL Query" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="R8CUXk5LIufCTb3Vg6Q0-20" target="xyALSVIDRosyTvIhsN_C-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xyALSVIDRosyTvIhsN_C-16" value="Event: OrderPaid" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="R8CUXk5LIufCTb3Vg6Q0-20" target="xyALSVIDRosyTvIhsN_C-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="R8CUXk5LIufCTb3Vg6Q0-20" value="&lt;div&gt;Payment Management Service&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;Technology: ASP.NET&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;- Processes payment transactions&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;- Triggers post-payment events&lt;/div&gt;" style="html=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="1640" y="750" width="260" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="xyALSVIDRosyTvIhsN_C-14" value="SQL Insert" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="R8CUXk5LIufCTb3Vg6Q0-22" target="xyALSVIDRosyTvIhsN_C-13">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="R8CUXk5LIufCTb3Vg6Q0-22" value="&lt;div&gt;Notification Service&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;Technology: ASP.NET&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;- Sends email/SMS notifications&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;- Subscribes to payment events&lt;/div&gt;" style="html=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="1960" y="750" width="260" height="100" as="geometry" />
@@ -102,6 +111,23 @@
         </mxCell>
         <mxCell id="xyALSVIDRosyTvIhsN_C-8" value="&lt;div&gt;ShoppingCartDB&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;Type: PostgreSQL&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;Used by: Shopping Cart Management Service&lt;/div&gt;" style="html=1;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="1320" y="980" width="260" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="xyALSVIDRosyTvIhsN_C-11" value="&lt;div&gt;PaymentDB&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;Type: MongoDB&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;Used by: Payment Management Service&lt;/div&gt;" style="html=1;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="980" width="260" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="xyALSVIDRosyTvIhsN_C-13" value="&lt;div&gt;NotificationDB&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;Type: PostgreSQL&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;Used by: Notification Service&lt;/div&gt;" style="html=1;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="1960" y="980" width="260" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="xyALSVIDRosyTvIhsN_C-17" value="Consumes: OrderPaid  &#xa;Action: Sends confirmation to user" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="xyALSVIDRosyTvIhsN_C-15" target="R8CUXk5LIufCTb3Vg6Q0-22">
+          <mxGeometry x="0.2963" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xyALSVIDRosyTvIhsN_C-18" value="Consumes: OrderPaid  &#xa;Action: Decrease stock level" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="xyALSVIDRosyTvIhsN_C-15" target="R8CUXk5LIufCTb3Vg6Q0-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xyALSVIDRosyTvIhsN_C-15" value="&lt;div&gt;RabbitMQ&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;- Asynchronous message broker&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;- AMQP Protocol&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;- Used for inter-service events&lt;/div&gt;" style="html=1;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1111" y="140" width="260" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
