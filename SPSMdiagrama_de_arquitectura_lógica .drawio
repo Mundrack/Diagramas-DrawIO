@@ -1,0 +1,82 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0 (Edition std-2)" version="28.0.4">
+  <diagram name="Página-1" id="Wuhu5AnjjuwaDmVvK1Gc">
+    <mxGraphModel dx="2555" dy="948" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="R8CUXk5LIufCTb3Vg6Q0-6" value="HTTPS (REST API)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="R8CUXk5LIufCTb3Vg6Q0-1" target="R8CUXk5LIufCTb3Vg6Q0-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R8CUXk5LIufCTb3Vg6Q0-1" value="&lt;div&gt;Store Administrator&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;- Manages inventory&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;- Adds/updates/deletes products&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="300" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R8CUXk5LIufCTb3Vg6Q0-5" value="HTTPS (REST API)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R8CUXk5LIufCTb3Vg6Q0-2" target="R8CUXk5LIufCTb3Vg6Q0-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R8CUXk5LIufCTb3Vg6Q0-2" value="&lt;div&gt;&lt;div&gt;Customer&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;- Browses products&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;- Adds to cart&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;- Makes payment&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;- Views order history&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="420" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R8CUXk5LIufCTb3Vg6Q0-8" value="HTTPS (RESTful)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="R8CUXk5LIufCTb3Vg6Q0-4" target="R8CUXk5LIufCTb3Vg6Q0-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R8CUXk5LIufCTb3Vg6Q0-4" value="&lt;div&gt;&lt;div&gt;UI Web Application&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;Technology: ASP.NET&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;- Main interface for customers and admins&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;- Sends requests to backend via API Gateway&lt;/div&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;fillColor=light-dark(#F8CECC,#830000);strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="330" y="340" width="260" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="R8CUXk5LIufCTb3Vg6Q0-10" value="POST /auth/login" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R8CUXk5LIufCTb3Vg6Q0-7" target="R8CUXk5LIufCTb3Vg6Q0-9">
+          <mxGeometry x="0.5616" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R8CUXk5LIufCTb3Vg6Q0-12" value="GET/POST/PUT /users" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R8CUXk5LIufCTb3Vg6Q0-7" target="R8CUXk5LIufCTb3Vg6Q0-11">
+          <mxGeometry x="-0.3913" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R8CUXk5LIufCTb3Vg6Q0-15" value="GET/POST /inventory" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R8CUXk5LIufCTb3Vg6Q0-7" target="R8CUXk5LIufCTb3Vg6Q0-13">
+          <mxGeometry x="0.5616" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R8CUXk5LIufCTb3Vg6Q0-17" value="GET /products?search=query" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="R8CUXk5LIufCTb3Vg6Q0-7" target="R8CUXk5LIufCTb3Vg6Q0-16">
+          <mxGeometry x="0.7698" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R8CUXk5LIufCTb3Vg6Q0-19" value="POST/PUT /cart" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R8CUXk5LIufCTb3Vg6Q0-7" target="R8CUXk5LIufCTb3Vg6Q0-18">
+          <mxGeometry x="0.8439" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R8CUXk5LIufCTb3Vg6Q0-21" value="POST /payments" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="R8CUXk5LIufCTb3Vg6Q0-7" target="R8CUXk5LIufCTb3Vg6Q0-20">
+          <mxGeometry x="0.881" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R8CUXk5LIufCTb3Vg6Q0-7" value="Kong API Gateway  &#xa;- Central routing point  &#xa;- Forwards all requests to backend services  &#xa;- Applies authentication, rate limiting, and logging" style="html=1;whiteSpace=wrap;fillColor=light-dark(#F8CECC,#007400);strokeColor=light-dark(#b85450, #51b870);" vertex="1" parent="1">
+          <mxGeometry x="330" y="535" width="260" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="R8CUXk5LIufCTb3Vg6Q0-9" value="&lt;div&gt;Authentication Service&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;Technology: ASP.NET&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;- Handles login and token generation&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;- Verifies credentials&lt;/div&gt;" style="html=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry y="750" width="260" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="R8CUXk5LIufCTb3Vg6Q0-11" value="&lt;div&gt;User Management Service&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;Technology: ASP.NET&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;- Manages user profiles&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;- CRUD operations for users&lt;/div&gt;" style="html=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="330" y="750" width="260" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="R8CUXk5LIufCTb3Vg6Q0-13" value="&lt;div&gt;Inventory Management Service&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;Technology: ASP.NET&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;- Manages stock and product availability&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;- Updates inventory after purchase&lt;/div&gt;" style="html=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="660" y="750" width="260" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="R8CUXk5LIufCTb3Vg6Q0-16" value="&lt;div&gt;Product Search Service&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;Technology: ASP.NET&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;- Searches products by name, category, etc.&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;- Retrieves data from indexed storage&lt;/div&gt;" style="html=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="990" y="750" width="260" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="R8CUXk5LIufCTb3Vg6Q0-18" value="&lt;div&gt;Shopping Cart Management Service&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;Technology: ASP.NET&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;- Handles cart operations&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;- Add/update/remove items from cart&lt;/div&gt;" style="html=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="750" width="260" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="R8CUXk5LIufCTb3Vg6Q0-20" value="&lt;div&gt;Payment Management Service&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;Technology: ASP.NET&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;- Processes payment transactions&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;- Triggers post-payment events&lt;/div&gt;" style="html=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="750" width="260" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="R8CUXk5LIufCTb3Vg6Q0-22" value="&lt;div&gt;Notification Service&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;Technology: ASP.NET&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;- Sends email/SMS notifications&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;- Subscribes to payment events&lt;/div&gt;" style="html=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1960" y="750" width="260" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
