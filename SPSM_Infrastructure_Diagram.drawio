@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0 (Edition std-2)" version="28.0.4">
   <diagram name="Página-1" id="-oBtZagFQr6BwE859LIM">
-    <mxGraphModel dx="3340" dy="1378" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2282" dy="798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -30,6 +30,11 @@
         <mxCell id="JEXbMqFdo-jNTM7aFnA4-21" value="&lt;div&gt;UI Web Application&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;Technology: ASP.NET&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;Frontend for users and admins&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;Runs inside Kubernetes Pod&lt;/div&gt;" style="html=1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="270" y="535" width="210" height="100" as="geometry" />
         </mxCell>
+        <mxCell id="KPIpK77U0L4cHAyHi6_5-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JEXbMqFdo-jNTM7aFnA4-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="960" y="585" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="JEXbMqFdo-jNTM7aFnA4-22" value="&lt;div&gt;Kong API Gateway&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;Routes requests to microservices&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;Applies authentication and logging&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;Exposed via cluster service&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="620" y="535" width="200" height="100" as="geometry" />
         </mxCell>
@@ -58,6 +63,11 @@
         </mxCell>
         <mxCell id="JEXbMqFdo-jNTM7aFnA4-27" value="&lt;div&gt;Notification Service&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;.NET Core API&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;Consumes events&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;Sends email/SMS notifications&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="1490" y="620" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="KPIpK77U0L4cHAyHi6_5-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JEXbMqFdo-jNTM7aFnA4-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="960" y="585" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="JEXbMqFdo-jNTM7aFnA4-28" value="&lt;div&gt;Authentication Service&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;.NET Core API&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;Handles login and JWT generation&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="990" y="535" width="200" height="100" as="geometry" />
