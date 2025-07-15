@@ -52,8 +52,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="mHhzqrUSUbGw9TSnwTTk-3" value="&lt;div&gt;&lt;b&gt;UI Web Application&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Technology: ASP.NET&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;- Main interface for customers and administrators&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;- Sends HTTPS requests to API Gateway&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="385.5" y="390" width="290" height="70" as="geometry" />
+        <mxCell id="mHhzqrUSUbGw9TSnwTTk-3" value="&lt;div&gt;&lt;b&gt;UI Web Application&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Technology: ASP.NET&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;- Main interface for customers and administrators&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;- Sends HTTPS requests to API Gateway&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="385.5" y="380" width="290" height="80" as="geometry" />
         </mxCell>
         <mxCell id="mHhzqrUSUbGw9TSnwTTk-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="mHhzqrUSUbGw9TSnwTTk-8" target="mHhzqrUSUbGw9TSnwTTk-12" edge="1">
           <mxGeometry relative="1" as="geometry">
