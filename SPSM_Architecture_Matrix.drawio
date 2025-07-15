@@ -1,17 +1,17 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0 (Edition std-2)" version="28.0.4">
   <diagram name="Página-1" id="i13byZTgKiIOev3eByZY">
-    <mxGraphModel dx="788" dy="431" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1622" dy="888" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="Bn-3ERYPzrL__islP2Uy-1" value="1. Users / Use Cases" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
-          <mxGeometry x="80" y="80" width="901" height="30" as="geometry" />
+          <mxGeometry x="80" y="80" width="1470" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Bn-3ERYPzrL__islP2Uy-2" value="&lt;div&gt;2. Applications / Interfaces&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="80" y="310" width="901" height="30" as="geometry" />
+          <mxGeometry x="80" y="310" width="1470" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Bn-3ERYPzrL__islP2Uy-3" value="&lt;div&gt;3. Integration&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="80" y="520" width="901" height="30" as="geometry" />
+          <mxGeometry x="80" y="520" width="1470" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Bn-3ERYPzrL__islP2Uy-4" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;5. Data / Storage&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=center;" parent="1" vertex="1">
           <mxGeometry x="80" y="1060" width="1470" height="30" as="geometry" />
@@ -20,10 +20,10 @@
           <mxGeometry x="80" y="780" width="1470" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Bn-3ERYPzrL__islP2Uy-6" value="6. Security" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="80" y="1300" width="901" height="30" as="geometry" />
+          <mxGeometry x="80" y="1300" width="1470" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Bn-3ERYPzrL__islP2Uy-7" value="7. Infrastructure" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
-          <mxGeometry x="80" y="1540" width="901" height="30" as="geometry" />
+          <mxGeometry x="80" y="1540" width="1480" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mHhzqrUSUbGw9TSnwTTk-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.391;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="mHhzqrUSUbGw9TSnwTTk-1" target="Bn-3ERYPzrL__islP2Uy-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
