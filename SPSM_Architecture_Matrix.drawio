@@ -44,53 +44,42 @@
         <mxCell id="mHhzqrUSUbGw9TSnwTTk-2" value="&lt;div&gt;Store Administrator&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;- Manage inventory&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;- Add/update/delete products&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;- Monitor stock levels&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="650" y="160" width="180" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="mHhzqrUSUbGw9TSnwTTk-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mHhzqrUSUbGw9TSnwTTk-3" target="mHhzqrUSUbGw9TSnwTTk-8">
+        <mxCell id="mHhzqrUSUbGw9TSnwTTk-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="mHhzqrUSUbGw9TSnwTTk-3" target="mHhzqrUSUbGw9TSnwTTk-8">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="255" y="500" />
+              <mxPoint x="531" y="500" />
               <mxPoint x="345" y="500" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="mHhzqrUSUbGw9TSnwTTk-3" value="&lt;div&gt;UI Web Application&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;Technology: ASP.NET&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;- Main interface for customers and administrators&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;- Sends HTTPS requests to API Gateway&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="110" y="405" width="290" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="mHhzqrUSUbGw9TSnwTTk-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mHhzqrUSUbGw9TSnwTTk-4" target="mHhzqrUSUbGw9TSnwTTk-8">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="740" y="500" />
-              <mxPoint x="345" y="500" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="mHhzqrUSUbGw9TSnwTTk-4" value="&lt;div&gt;Admin Management Interface (Optional)&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;- Web portal for inventory and product management&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;- Restricted access for admins only&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="615" y="400" width="250" height="80" as="geometry" />
+        <mxCell id="mHhzqrUSUbGw9TSnwTTk-3" value="&lt;div&gt;&lt;b&gt;UI Web Application&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Technology: ASP.NET&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;- Main interface for customers and administrators&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;- Sends HTTPS requests to API Gateway&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="385.5" y="390" width="290" height="70" as="geometry" />
         </mxCell>
         <mxCell id="mHhzqrUSUbGw9TSnwTTk-8" value="&lt;div&gt;Kong API Gateway&lt;/div&gt;&lt;div&gt;- Routes client requests to microservices&lt;/div&gt;&lt;div&gt;- Applies authentication, rate limiting, logging&lt;/div&gt;&lt;div&gt;- Entry point for external requests&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="200" y="620" width="290" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="mHhzqrUSUbGw9TSnwTTk-9" value="&lt;div&gt;RabbitMQ (Message Broker)&lt;/div&gt;&lt;div&gt;- Asynchronous communication&lt;/div&gt;&lt;div&gt;- Event-driven architecture&lt;/div&gt;&lt;div&gt;- Used for inter-service messaging&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="mHhzqrUSUbGw9TSnwTTk-9" value="&lt;div&gt;&lt;b&gt;RabbitMQ (Message Broker)&lt;/b&gt;&lt;/div&gt;&lt;div&gt;- Asynchronous communication&lt;/div&gt;&lt;div&gt;- Event-driven architecture&lt;/div&gt;&lt;div&gt;- Used for inter-service messaging&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="640" y="620" width="290" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="mHhzqrUSUbGw9TSnwTTk-12" value="&lt;div&gt;- Technology: ASP.NET&lt;/div&gt;&lt;div&gt;- Handles login and token generation&lt;/div&gt;&lt;div&gt;- Verifies credentials&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="mHhzqrUSUbGw9TSnwTTk-12" value="&lt;div&gt;&lt;b&gt;Authentication Service&lt;/b&gt;&lt;/div&gt;&lt;div&gt;- Technology: ASP.NET&lt;/div&gt;&lt;div&gt;- Handles login and token generation&lt;/div&gt;&lt;div&gt;- Verifies credentials&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="90" y="840" width="180" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="mHhzqrUSUbGw9TSnwTTk-13" value="&lt;div&gt;- Technology: ASP.NET&lt;/div&gt;&lt;div&gt;- CRUD operations for user profiles&lt;/div&gt;&lt;div&gt;- Handles user roles&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="mHhzqrUSUbGw9TSnwTTk-13" value="&lt;div&gt;&lt;b&gt;User Management Service&lt;/b&gt;&lt;/div&gt;&lt;div&gt;- Technology: ASP.NET&lt;/div&gt;&lt;div&gt;- CRUD operations for user profiles&lt;/div&gt;&lt;div&gt;- Handles user roles&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="300" y="840" width="180" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="mHhzqrUSUbGw9TSnwTTk-14" value="&lt;div&gt;- Technology: ASP.NET&lt;/div&gt;&lt;div&gt;- Manages product stock and availability&lt;/div&gt;&lt;div&gt;- Updates inventory after purchase&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="510" y="840" width="180" height="90" as="geometry" />
+        <mxCell id="mHhzqrUSUbGw9TSnwTTk-14" value="&lt;div&gt;&lt;b&gt;Inventory Management Service&lt;/b&gt;&lt;/div&gt;&lt;div&gt;- Technology: ASP.NET&lt;/div&gt;&lt;div&gt;- Manages product stock and availability&lt;/div&gt;&lt;div&gt;- Updates inventory after purchase&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="510" y="840" width="190" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="mHhzqrUSUbGw9TSnwTTk-15" value="&lt;div&gt;- Technology: ASP.NET&lt;/div&gt;&lt;div&gt;- Filters products by name, category&lt;/div&gt;&lt;div&gt;- Queries from indexed search DB&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="mHhzqrUSUbGw9TSnwTTk-15" value="&lt;div&gt;&lt;b&gt;Product Search Service&lt;/b&gt;&lt;/div&gt;&lt;div&gt;- Technology: ASP.NET&lt;/div&gt;&lt;div&gt;- Filters products by name, category&lt;/div&gt;&lt;div&gt;- Queries from indexed search DB&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="720" y="840" width="180" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="mHhzqrUSUbGw9TSnwTTk-16" value="&lt;div&gt;- Technology: ASP.NET&lt;/div&gt;&lt;div&gt;- Handles cart operations&lt;/div&gt;&lt;div&gt;- Add/remove items from cart&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="mHhzqrUSUbGw9TSnwTTk-16" value="&lt;div&gt;&lt;b&gt;Shopping Cart Management Service&lt;/b&gt;&lt;/div&gt;&lt;div&gt;- Technology: ASP.NET&lt;/div&gt;&lt;div&gt;- Handles cart operations&lt;/div&gt;&lt;div&gt;- Add/remove items from cart&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="90" y="970" width="180" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="mHhzqrUSUbGw9TSnwTTk-17" value="&lt;div&gt;- Technology: ASP.NET&lt;/div&gt;&lt;div&gt;- Processes payment transactions&lt;/div&gt;&lt;div&gt;- Publishes events to RabbitMQ&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="mHhzqrUSUbGw9TSnwTTk-17" value="&lt;div&gt;&lt;b&gt;Payment Management Service&lt;/b&gt;&lt;/div&gt;&lt;div&gt;- Technology: ASP.NET&lt;/div&gt;&lt;div&gt;- Processes payment transactions&lt;/div&gt;&lt;div&gt;- Publishes events to RabbitMQ&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="300" y="970" width="180" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="mHhzqrUSUbGw9TSnwTTk-18" value="&lt;div&gt;- Technology: ASP.NET&lt;/div&gt;&lt;div&gt;- Subscribes to payment events from RabbitMQ&lt;/div&gt;&lt;div&gt;- Sends emails/SMS notifications&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="mHhzqrUSUbGw9TSnwTTk-18" value="&lt;div&gt;&lt;b&gt;Notification Service&lt;/b&gt;&lt;/div&gt;&lt;div&gt;- Technology: ASP.NET&lt;/div&gt;&lt;div&gt;- Subscribes to payment events from RabbitMQ&lt;/div&gt;&lt;div&gt;- Sends emails/SMS notifications&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="510" y="970" width="180" height="90" as="geometry" />
         </mxCell>
       </root>
