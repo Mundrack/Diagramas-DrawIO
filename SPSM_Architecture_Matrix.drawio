@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 OPR/119.0.0.0 (Edition std-2)" version="28.0.4">
   <diagram name="Página-1" id="i13byZTgKiIOev3eByZY">
-    <mxGraphModel dx="460" dy="252" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="788" dy="431" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -103,11 +103,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="mHhzqrUSUbGw9TSnwTTk-8" value="&lt;div&gt;Kong API Gateway&lt;/div&gt;&lt;div&gt;- Routes client requests to microservices&lt;/div&gt;&lt;div&gt;- Applies authentication, rate limiting, logging&lt;/div&gt;&lt;div&gt;- Entry point for external requests&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="200" y="620" width="290" height="70" as="geometry" />
+        <mxCell id="mHhzqrUSUbGw9TSnwTTk-8" value="&lt;div&gt;&lt;b&gt;Kong API Gateway&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- Routes client requests to microservices&lt;/div&gt;&lt;div&gt;- Applies authentication, rate limiting, logging&lt;/div&gt;&lt;div&gt;- Entry point for external requests&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="200" y="600" width="290" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="mHhzqrUSUbGw9TSnwTTk-9" value="&lt;div&gt;&lt;b&gt;RabbitMQ (Message Broker)&lt;/b&gt;&lt;/div&gt;&lt;div&gt;- Asynchronous communication&lt;/div&gt;&lt;div&gt;- Event-driven architecture&lt;/div&gt;&lt;div&gt;- Used for inter-service messaging&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="640" y="620" width="290" height="70" as="geometry" />
+        <mxCell id="mHhzqrUSUbGw9TSnwTTk-9" value="&lt;div&gt;&lt;b&gt;RabbitMQ (Message Broker)&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;- Asynchronous communication&lt;/div&gt;&lt;div&gt;- Event-driven architecture&lt;/div&gt;&lt;div&gt;- Used for inter-service messaging&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="640" y="600" width="290" height="90" as="geometry" />
         </mxCell>
         <mxCell id="mHhzqrUSUbGw9TSnwTTk-12" value="&lt;div&gt;&lt;b&gt;Authentication Service&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;- Technology: ASP.NET&lt;/div&gt;&lt;div&gt;- Handles login and token generation&lt;/div&gt;&lt;div&gt;- Verifies credentials&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="80" y="890" width="180" height="100" as="geometry" />
